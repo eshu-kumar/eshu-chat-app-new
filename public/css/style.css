@@ -1,0 +1,46 @@
+body{
+    position: relative;
+}
+footer{
+    position:fixed;
+    bottom:30px;
+    width:100%;
+}
+#message {
+    display:inline-block;
+    width:70%;
+    height:80px;
+    background-color: antiquewhite;
+    margin:0;
+    border:none;
+    border-bottom: 2px solid gray;
+    font-size:30px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+    color:#888888;
+}
+#message:focus{
+    border:none;
+    border-bottom:2px solid gray;
+    outline: none;
+}
+#send,#sendLocation{
+    display:inline-block;
+    width:20%;
+    margin-right:8%;
+    height:80px;
+    background-color: aqua;
+    color:#888888;
+    border:none;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+}
+#send:focus,#send:hover,#sendLocation:focus,#sendLocation:hover{
+    background-color: blueviolet;
+    outline:none;
+    color:white;
+}
+
+    
+
+
